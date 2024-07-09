@@ -1,5 +1,5 @@
 import os
-
+from os import environ
 
 class Config(object):
     API_HASH = os.environ.get("API_HASH")
